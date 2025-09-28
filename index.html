@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Método Violão 100 - Pré-venda</title>
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; background:#000; color:#fff; }
+    header {
+      background: url('img/header.jpg') center center/cover no-repeat;
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      position: relative;
+    }
+    header::after {
+      content: '';
+      position: absolute;
+      top:0; left:0; right:0; bottom:0;
+      background: rgba(0,0,0,0.55);
+    }
+    header h1, header p, header a {
+      position: relative;
+      z-index: 2;
+    }
+    h1 { font-size: 2.8rem; margin-bottom: 10px; }
+    p { font-size: 1.2rem; margin-bottom: 20px; }
+    .cta-btn {
+      background: #ff5a00;
+      color:#fff;
+      padding:15px 30px;
+      border-radius:5px;
+      text-decoration:none;
+      font-weight:bold;
+      font-size: 1.1rem;
+      transition: background 0.3s;
+    }
+    .cta-btn:hover { background: #e14e00; }
+    .video-section { padding:40px 20px; text-align:center; }
+    video { width:100%; max-width:800px; border-radius:8px; }
+    .benefits { padding:50px 20px; text-align:center; }
+    .benefits h2 { color:#adff2f; margin-bottom:30px; }
+    .benefit-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); gap:20px; }
+    .benefit { background:#111; padding:20px; border-radius:8px; border:1px solid #222; }
+    .footer-cta { text-align:center; padding:40px 20px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Aprenda Violão do Zero ao Avançado</h1>
+  <p>Com Arthur Endo - Método Violão 100</p>
+  <a href="https://go.hotmart.com/J101910494X?ap=bd32" class="cta-btn">Quero Começar Agora</a>
+</header>
+
+<section class="video-section">
+  <video id="videoPlayer" autoplay muted loop controls>
+    <source src="video/naotemtempo01_feed.mp4" type="video/mp4">
+    Seu navegador não suporta vídeos.
+  </video>
+</section>
+
+<section class="benefits">
+  <h2>O que você vai encontrar no Método Violão 100</h2>
+  <div class="benefit-grid">
+    <div class="benefit"><strong>🎵 100 Aulas Personalizadas</strong><p>Conteúdo completo do básico ao avançado, adaptado ao seu ritmo.</p></div>
+    <div class="benefit"><strong>⏳ Poucos Minutos por Dia</strong><p>Você não precisa de muito tempo para evoluir e notar resultados.</p></div>
+    <div class="benefit"><strong>📈 Evolução Contínua</strong><p>Materiais de apoio e prática estruturada para acelerar seu progresso.</p></div>
+    <div class="benefit"><strong>🔥 Metodologia Estimulante</strong><p>Aprendizado leve e envolvente, que motiva a cada nível superado.</p></div>
+  </div>
+</section>
+
+<section class="footer-cta">
+  <a href="https://go.hotmart.com/J101910494X?ap=bd32" class="cta-btn">Quero Garantir Meu Acesso</a>
+</section>
+
+</body>
+</html>
